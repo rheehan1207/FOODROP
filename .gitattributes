@@ -1,2 +1,27 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+void setup()
+{
+
+  fullScreen();
+  background(#52B5FF);
+
+  textSize(50) ;
+  text("Food Drop", 600, 450);
+
+  fill(#51C62E);
+  rect(0, 800, width, width);
+}
+
+void keyPressed()
+{
+  if (key == TAB)
+
+  {
+    background(255, 0, 0);
+  }
+}
+
+
+
+void draw()
+{
+}
